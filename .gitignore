@@ -1,0 +1,10 @@
+_site
+.sass-cache
+.jekyll-metadata
+*.swp
+*.DS_Store
+.bundle*
+s3_website.yml
+_site*
+.sass-cache
+.asset-cache
