@@ -1,40 +1,66 @@
-#home1 .button{
-  font-size: 200%;
-  line-height:150%;
-  padding:5px 20px;
-  display:inline-block;
-  margin:60px auto 0;
-	
-	@media all and (max-width: 900px) {
-		font-size:150%;
-		margin-top:20px
-  }
+#leader{
+  padding:0;
+  .button{
+    font-size: 200%;
+    line-height:150%;
+    padding:5px 20px;
+    display:inline-block;
+    margin:60px auto 0;
   
-	@media all and (max-width: 640px) {
-		font-size:130%;
-		padding:3px 0;
-		margin:3px;
-	}
+    @media all and (max-width: 900px) {
+      font-size:150%;
+      margin-top:20px
+    }
+
+    @media all and (max-width: 640px) {
+      font-size:130%;
+      padding:3px 0;
+      margin:3px;
+    }
+  }
+  .paginator{
+    text-align:center;
+    position:relative;
+    margin-top:-50px;
+    .ss-index-number.ss-selected{
+      background:#FFF;
+      color:rgba(0,0,0,0);
+    }
+    .ss-index-number{
+      background:transparent;
+      color:rgba(0,0,0,0);
+      border:2px solid #FFF;
+    }
+  }
 }
 
+#intro{
+  text-align:center;
+  padding:70px 0 30px;
+  p{
+    font-size:200%;
+    margin-bottom:30px;
+  }
+}
 
 /* Blog pages */
 .blogpost{
   padding: 30px 0;
-	h2{
-		font-size:200%;
+	h1{
+	  font-size:150%;
+	  margin-top:0.5em;
+	  margin-bottom:0.5em;
 	}
-	h3{
-		font-size:130%;
-	}
+	h2{ font-size:220%; }
+	h3{	font-size:170%; }
 	h2 a{
 		text-decoration:none;
 	}
 	.date{
 		float:right;
-		font-size: 200%;
-		font-family: 'second_chances';
-		color: #CCC;
+		font-size: 220%;
+		font-family: 'baqrounded';
+		color: rgba(255, 255, 255, 0.5);
 	}
 }
 
@@ -65,7 +91,7 @@
 		}
 	}
 	h4{
-		font-family:'second_chances';
+		font-family:'baqrounded';
 		font-size:120%;
 	}
 	.ss-index-number{
@@ -88,7 +114,7 @@
 			display:block;
 			margin-top:20px;
 			text-align:right;
-			color:#666;
+			color:#BBB;
 		}
 		p{
 			display: inline;

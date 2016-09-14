@@ -1,6 +1,16 @@
-$highlight:      #999;
-$highlight-dark: #666;
-$grey:        #EEE;
+$mime-yellow:       #F1BE48;
+$mime-orange:       #FF8200;
+$mime-light-blue:   #00A3E0;
+$mime-dark-blue:    #1B365D;
+
+$main:           $mime-light-blue;
+$highlight:      $mime-orange;
+$highlight-dark: #d96f00;
+$title-colour:   $mime-light-blue;
+$grey:           #EEE;
+
+$bodyfont:       "T Star Mono Round", "Lucida Console", Monaco, monospace;
+$headlinefont:   "baqrounded";
 
 @import 'css-includes/mixins';
 @import 'css-includes/font';

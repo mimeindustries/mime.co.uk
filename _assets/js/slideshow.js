@@ -1,3 +1,5 @@
+//= require polyfills.js
+
 function Slideshow(id, options){
 	options = options || {}
 	this.el = document.getElementById(id);
@@ -7,6 +9,7 @@ function Slideshow(id, options){
 }
 Slideshow.prototype = {
 	init: function(){
+	  var prev, next;
 		var self = this;
 		this.slides = Array.prototype.slice.call(this.el.querySelectorAll('.ss-slide'));
 		if(this.order === 'random'){
@@ -27,8 +30,8 @@ Slideshow.prototype = {
 				this.slides[i].addEventListener('click', function(e){ return self.next(e, true) });
 			}
 		}
-		this.el.querySelector('.ss-prev').addEventListener('click', function(e){ return self.prev(e, true) });
-		this.el.querySelector('.ss-next').addEventListener('click', function(e){ return self.next(e, true) });
+		if(prev = this.el.querySelector('.ss-prev')) prev.addEventListener('click', function(e){ return self.prev(e, true) });
+		if(next = this.el.querySelector('.ss-next')) next.addEventListener('click', function(e){ return self.next(e, true) });
 		this.autoplay();
 		this.currentSlide = 0;
 		this.showSlide();
@@ -48,14 +51,14 @@ Slideshow.prototype = {
 		}
 		for(var i=0; i< this.slides.length; i++){
 			if(i == this.currentSlide){
-				this.slides[i].className = "ss-slide";
+			  this.slides[i].classList.remove('ss-hidden');
 				if(this.index){
-					this.index.querySelector('.ss-index-' + i).className = 'ss-index-number ss-index-' + i + ' ss-selected';
+			    this.index.querySelector('.ss-index-' + i).classList.add('ss-selected');
 				}
 			}else{
-				this.slides[i].className = "ss-slide ss-hidden";
+			  this.slides[i].classList.add('ss-hidden');
 				if(this.index){
-					this.index.querySelector('.ss-index-' + i).className = 'ss-index-number ss-index-' + i;
+			    this.index.querySelector('.ss-index-' + i).classList.remove('ss-selected');
 				}
 			}
 		}

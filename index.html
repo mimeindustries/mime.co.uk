@@ -5,26 +5,26 @@ title: Home
 
 <div id="home">
   <section id="leader">
-    <div id="mirobotLeader" class="imgbox ss-slide ss-hidden">
+    <div id="mirobotLeader" class="imgbox ss-slide">
       <div class="inner">
         <h2 class="headline">Learn to program with Mirobot</h2>
         <h2 class="headline">The WiFi drawing robot for children</h2>
         <a href="/products/mirobot/" class="button">Learn more ></a>
       </div>
     </div>
-    <div id="home2" class="imgbox ss-slide ss-hidden">
+    <div id="mearmLeader" class="imgbox ss-slide">
       <div class="inner">
-        <h2 class="headline">Learn to program with Mirobot</h2>
-        <h2 class="headline">The WiFi drawing robot for children</h2>
-        <a href="/products/mirobot/" class="button">Learn more ></a>
+        <h2 class="headline">Build your own Robot Arm</h2>
+        <h2 class="headline">Program it with Arduino or Raspberry Pi</h2>
+        <a href="/products/mearm/" class="button">Learn more ></a>
       </div>
     </div>
-    <a href="#" class="ss-prev ss-index-number">&lt;</a>
-    <span class="ss-index"></span>
-    <a href="#" class="ss-next ss-index-number">&gt;</a>
+    <div class="paginator">
+      <span class="ss-index"></span>
+    </div>
 	</div>
 
-	<section id="">
+	<section id="intro" class="yellow">
 		<div class="inner">
 			<p>Build-it-yourself robotics kits for kids.</p>
 			<p>Make them yourself then use them to learn how to code</p>
@@ -36,7 +36,7 @@ title: Home
 
 	<section id="testimonials">
 		<div class="inner">
-			<div class=" class="ss-slide ss-hidden"">
+			<div class="ss-slide ss-hidden">
 				<blockquote>
 					<p>Educational technology is tricky to get right. Mirobot is smart in all sorts of subtle ways – I’m tremendously impressed with the thought and care that continues to go into it.</p>
 					<cite>Jonathan Sanderson - Think Physics, Northumbria University</cite>
@@ -86,7 +86,7 @@ title: Home
 </div>
 <script type="text/javascript">
 
-new Slideshow('leader', {order:'random'});
+new Slideshow('leader', {order:'random', autoplayDelay: 15000});
 new Slideshow('testimonials', {order:'random'});
 
 </script>

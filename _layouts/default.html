@@ -23,81 +23,86 @@ ga('send', 'pageview');
     <body>
         <div id="main">
           <header>
-          	<div>
-							<h1 class="title"><a href="/"><img src="/assets/logo.gif"</a></h1>
-							<ul>
-								<li{% if page.url contains '/products/' %} class="selected"{% endif %}><a href="/products/">Products</a></li>
-								<li{% if page.url contains '/education/' %} class="selected"{% endif %}><a href="/education/">Education</a></li>
-								<li{% if page.url contains '/build/' %} class="selected"{% endif %}><a href="/build/">Build</a></li>
-								<li{% if page.url contains '/buy/' %} class="selected"{% endif %}><a href="/buy/" class="button">Buy</a></li>
-							</ul>
-						</div>
+            <div class="menu">
+              <h1 class="title"><a href="/"><img src="/assets/logo.svg" alt="Mime Industries" /></a></h1>
+              <ul>
+                <li{% if page.url contains '/products/' %} class="selected"{% endif %}><a class="products" href="/products/">Products</a>
+                </li>
+                <li{% if page.url contains '/education/' %} class="selected"{% endif %}><a href="/education/">Education</a></li>
+                <li{% if page.url contains '/build/' %} class="selected"{% endif %}><a href="/build/">Build</a></li>
+                <li><a href="/buy/" class="button">Buy</a></li>
+              </ul>
+            </div>
+            <div id="productsDropdown">
+              <div class="productMenu">
+                <a href="/products/mearm/">
+                  <img src="/assets/img/mearmDropdown.jpg" /><div><strong>MeArm</strong><p>Your Robot Arm</p></div>
+                </a>
+              </div>
+              <div class="productMenu">
+                <a href="/products/mirobot/">
+                  <img src="/assets/img/mirobotDropdown.jpg" /><div><strong>Mirobot</strong><p>The WiFi Drawing Robot for Kids</p></div>
+                </a>
+              </div>
+            </div>
           </header>
           <div id="content">
           {{ content }}
           </div>
           <footer>
-          	<div class="inner">
-            	<div class="social">
-								<span class="links">
-									<a href="https://twitter.com/mimeindustries">
-										<span class="fa-stack fa">
-											<i class="fa fa-circle fa-inverse fa-stack-2x"></i>
-											<i class="fa fa-twitter fa-stack-1x"></i>
-										</span>
-									</a>
-									<a href="https://github.com/mimeindustries"><i class="fa fa-2x fa-github fa-inverse" ></i></a>
-									<a href="https://www.facebook.com/mirobot.io/">
-										<span class="fa-stack fa">
-											<i class="fa fa-circle fa-inverse fa-stack-2x"></i>
-											<i class="fa fa-facebook fa-stack-1x"></i>
-										</span>
-									</a>
-									<a href="https://www.youtube.com/results?search_query=mimeindustries">
-										<span class="fa-stack fa">
-											<i class="fa fa-circle fa-inverse fa-stack-2x"></i>
-											<i class="fa fa-youtube fa-stack-1x"></i>
-										</span>
-									</a>
-								</span>
-            		<span class="signup">
-									<form action="http://mirobot.us3.list-manage.com/subscribe/post?u=9a2ab7086502ca3b5d3b7058c&amp;id=ab6be717cb" method="post" name="mc-embedded-subscribe-form" target="_blank">
-										<p>Register your email to be kept up to date...</p>
-										<input type="email" placeholder="your@email.com" name="EMAIL">
-										<button>Register</button>
-									</form>
-								</span>
-            	</div>
+            <div class="inner">
+              <div class="social">
+                <span class="links">
+                  <a href="https://twitter.com/mimeindustries">
+                    <span class="fa-stack fa">
+                      <i class="fa fa-circle fa-inverse fa-stack-2x"></i>
+                      <i class="fa fa-twitter fa-stack-1x"></i>
+                    </span>
+                  </a>
+                  <a href="https://github.com/mimeindustries"><i class="fa fa-2x fa-github fa-inverse" ></i></a>
+                  <a href="https://www.facebook.com/mirobot.io/">
+                    <span class="fa-stack fa">
+                      <i class="fa fa-circle fa-inverse fa-stack-2x"></i>
+                      <i class="fa fa-facebook fa-stack-1x"></i>
+                    </span>
+                  </a>
+                  <a href="https://www.youtube.com/results?search_query=mimeindustries">
+                    <span class="fa-stack fa">
+                      <i class="fa fa-circle fa-inverse fa-stack-2x"></i>
+                      <i class="fa fa-youtube fa-stack-1x"></i>
+                    </span>
+                  </a>
+                </span>
+                <span class="signup">
+                  <form action="http://mirobot.us3.list-manage.com/subscribe/post?u=9a2ab7086502ca3b5d3b7058c&amp;id=ab6be717cb" method="post" name="mc-embedded-subscribe-form" target="_blank">
+                    <p>Register your email to be kept up to date...</p>
+                    <input type="email" placeholder="your@email.com" name="EMAIL">
+                    <button>Register</button>
+                  </form>
+                </span>
+              </div>
               <div class="footlinks">
-                <h3 class="logo">{{ site.title }}</h3>
+                <img class="logo" src="/assets/logo.svg" alt="Mime Industries" />
+              </div>
+              <div class="footlinks">
                 <ul>
                   <li><a href="/about/">About</a></li>
                   <li><a href="/blog/">News</a></li>
                   <li><a href="/press/">Press</a></li>
                   <li><a href="/buy/">Buy</a></li>
                   <li><a href="/contact/">Contact</a></li>
-                  <li><a href="https://groups.google.com/forum/#!forum/mirobot">Get help</a></li>
                 </ul>
               </div>
               <div class="footlinks">
-                <h3>Build</h3>
                 <ul>
-                  <li><a href="http://learn.mirobot.io/docs/building-the-v2-mirobot/">Build Mirobot</a></li>
-                  <li><a href="http://learn.mirobot.io/docs/drawing-shapes/">Make it draw</a></li>
-                  <li><a href="http://learn.mirobot.io/docs/update-arduino-serial/">Build the firmware</a></li>
+                  <li><a href="/build/">Build</a></li>
+                  <li><a href="http://learn.mirobot.io">Learn</a></li>
+                  <li><a href="https://github.com/mimeindustries">Open Source</a></li>
+                  <li><a href="http://apps.mirobot.io">Apps</a></li>
+                  <li><a href="/contact/">Get help</a></li>
                 </ul>
               </div>
-              <div class="footlinks">
-                <h3>Open Source</h3>
-                <ul>
-                  <li><a href="https://github.com/mirobot/mirobot-chassis">Chassis designs</a></li>
-                  <li><a href="https://github.com/mirobot/mirobot-pcb">PCB designs</a></li>
-                  <li><a href="https://github.com/mirobot/mirobot-arduino">Arduino firmware</a></li>
-                  <li><a href="https://github.com/mirobot/mirobot-wifi">WiFi module firmware</a></li>
-                  <li><a href="https://github.com/mirobot/apps.mirobot.io">Apps</a></li>
-                </ul>
-              </div>
-							<p class="copyright">&copy; 2016 Mime Industries Ltd</p>
+              <p class="copyright">&copy; 2016 Mime Industries Ltd</p>
             </div>
           </footer>
         </div>
@@ -107,9 +112,21 @@ ga('send', 'pageview');
 function initshrink() {
     window.addEventListener('scroll', function(e){
         var distanceY = window.pageYOffset || document.documentElement.scrollTop;
-				document.querySelector("header").className = (distanceY > 200 ? "small" : '');
+        document.querySelector("header").className = (distanceY > 200 ? "small" : '');
     });
 }
-window.onload = initshrink();    
+window.onload = initshrink();
+
+var showProductMenu = function(){
+  document.querySelector('#productsDropdown').style.display = 'block';
+}
+var hideProductMenu = function(){
+  document.querySelector('#productsDropdown').style.display = 'none';
+}
+document.querySelector('header .products').addEventListener('mouseenter', showProductMenu);
+document.querySelector('header .products').addEventListener('touchstart', showProductMenu);
+document.querySelector('header').addEventListener('mouseleave', hideProductMenu);
+
+
     </script>
 </html>

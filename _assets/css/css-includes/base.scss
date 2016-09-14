@@ -9,7 +9,7 @@
 }
 
 #content{
-	margin-top:80px;
+	margin-top:96px;
 }
 
 h3{
@@ -28,16 +28,35 @@ a{
 
 section{
   padding:15px 0 15px;
-  font-size:120%;
+  font-size:100%;
+  background-color:$mime-yellow;
+  color:#FFF;
+
+  &.orange{
+    background-color:$mime-orange;
+  }
+  &.yellow{
+    background-color:$mime-yellow;
+  }
+  &.darkblue{
+    background-color:$mime-dark-blue;
+  }
+  &.lightblue{
+    background-color:$mime-light-blue;
+  }
+
+  a{
+    color:#EEE;
+  }
 
 	p, h3, h4{
 		margin:5px;
 	}
 	h3{
-		font-size:110%;
+		font-size:170%;
 	}
 	h4{
-		font-size:100%;
+		font-size:130%;
 		margin-top:10px;
 	}
 	h3 a{

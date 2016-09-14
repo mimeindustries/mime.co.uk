@@ -1,5 +1,6 @@
 .button {
-  font-family: 'second_chances';
+  #font-family: 'baqrounded';
+	font-family: "T Star Mono Round", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   font-size: 140%;
   color:#FFF;
   background-color:$highlight;
@@ -32,4 +33,27 @@
 
 .button:hover{
   background-color:$highlight-dark;
+}
+
+.product{
+  border-bottom:20px solid white;
+  height:60vmin;
+}
+
+.insert{
+  width:40%;
+  background-color:$mime-yellow;
+  padding:20px;
+  margin:20px;
+  float:right;
+  color:#FFF;
+
+  a{
+    color:#FFF;
+    text-decoration:none;
+  }
+}
+
+h2.start{
+  font-size:250%
 }

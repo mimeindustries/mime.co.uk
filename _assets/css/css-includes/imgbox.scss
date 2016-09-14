@@ -19,14 +19,14 @@
 	}
 	
   h2{
-		font-size: 250%;
+		font-size: 300%;
 		text-align:center;
 		margin:10px;
 		padding:5px 20px;
-		background-color:rgba(255, 255, 255, 0.8);
 		display:inline-block;
 		line-height:150%;
-		color:#000;
+		color:$title-colour;
+		text-shadow: 6px 6px 1px #FFF;
 	
 		@media all and (max-width: 900px) {
 			font-size:180%;
@@ -39,11 +39,13 @@
 	}
 }
 
-#mirobotLeader{ background-image:url('/assets/bg/home.jpg');}
+#mirobotLeader{ background-image:url('/assets/bg/mirobotLeader.jpg');}
+#mearmLeader{ background-image:url('/assets/bg/mearmLeader.jpg');}
 #home2{ background-image:url('/assets/bg/kids.jpg');}
-#home3{ background-image:url('/assets/bg/floor.jpg');}
+#home3{ background-image:url('/assets/bg/mearmHome3.jpg');}
 #about .imgbox { background-image:url('/assets/bg/about.jpg');}
-#build .imgbox { background-image:url('/assets/bg/build.jpg');}
+#buildMirobot .imgbox { background-image:url('/assets/bg/buildMirobot.jpg');}
+#buildMearm .imgbox { background-image:url('/assets/bg/buildMearm.jpg');}
 #contactImg { background-image:url('/assets/bg/contact.jpg');}
 #teach{ background-image:url('/assets/bg/kids.jpg');}
 #apps{ background-image:url('/assets/bg/apps.jpg');}
