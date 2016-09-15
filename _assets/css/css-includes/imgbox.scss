@@ -10,19 +10,25 @@
 	min-height:300px;
 	
 	@media all and (max-width: 900px) {
-		background-attachment:scroll;
-		background-position:center top;
+		#background-attachment:scroll;
+		#background-position:center top;
   }
 	
 	.inner{
 		@include vertical-align();
 	}
+	.button{
+    @media all and (max-width: 900px) {
+      font-size:150%;
+      margin-top:20px
+    }
+  }
 	
   h2{
 		font-size: 300%;
 		text-align:center;
 		margin:10px;
-		padding:5px 20px;
+		padding:0;
 		display:inline-block;
 		line-height:150%;
 		color:$title-colour;
@@ -49,3 +55,8 @@
 #contactImg { background-image:url('/assets/bg/contact.jpg');}
 #teach{ background-image:url('/assets/bg/kids.jpg');}
 #apps{ background-image:url('/assets/bg/apps.jpg');}
+
+#home2 img{
+  width:70%;
+  margin:20% auto;
+}

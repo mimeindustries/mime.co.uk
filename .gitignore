@@ -8,3 +8,4 @@ s3_website.yml
 _site*
 .sass-cache
 .asset-cache
+*Icon*
