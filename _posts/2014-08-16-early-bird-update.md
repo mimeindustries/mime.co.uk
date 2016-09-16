@@ -22,7 +22,7 @@ One of the most requested features was a power switch, which I'm pleased to anno
 
 Another simplification is the driver chip. Previously I was using two 7 channel ULN2003 driver chips, primarily because these came free with the stepper motor I was using so they were the quickest thing to use. I've switched to the 8 channel ULN2803 which means it can handle both stepper motors.
 
-You can compare the instructions for [the previous version](/build/beta/pcb/) to this [new version](/build/earlybird/pcb/) to see how much simpler the build process has become (you should also notice improvements in the instructions).
+You can compare the instructions for [the previous version](/build/mirobot/beta/pcb/) to this [new version](/build/mirobot/earlybird/pcb/) to see how much simpler the build process has become (you should also notice improvements in the instructions).
 
 Pen arm improvements
 --------------------
