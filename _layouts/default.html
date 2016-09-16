@@ -104,7 +104,6 @@
 function initshrink() {
   document.addEventListener('scroll', function(e){
     var distanceY = window.pageYOffset || document.documentElement.scrollTop;
-    console.log(distanceY)
     document.querySelector("header").className = (distanceY > 200 ? "small" : '');
   });
 }
