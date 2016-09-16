@@ -11,7 +11,9 @@ env:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
 
 deploy:
+  skip_cleanup: true
   provider: script
-  script: bin/deploy
+  script: rm -rf ./_site/* && rvm $TRAVIS_RUBY_VERSION do bundle exec jekyll build && rvm $TRAVIS_RUBY_VERSION do bundle exec s3_website push
   on:
     branch: master
+    

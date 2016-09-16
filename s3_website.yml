@@ -41,7 +41,7 @@ concurrency_level: 10
 
 # redirects:
 
-
+site: _site
 
 # routing_rules:
 #   - condition:
