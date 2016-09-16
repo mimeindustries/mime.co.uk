@@ -29,31 +29,48 @@ a{
 section{
   padding:15px 0 15px;
   font-size:100%;
-  background-color:$mime-yellow;
-  color:#FFF;
+  background-color:#FFF;
+  color:$mime-yellow;
 
   &.orange{
     background-color:$mime-orange;
+    color:#FFF;
   }
   &.yellow{
     background-color:$mime-yellow;
+    color:#FFF;
   }
   &.darkblue{
     background-color:$mime-dark-blue;
+    color:#FFF;
+    p{
+      color:#FFF;
+    }
+    a{
+      color:$mime-light-blue;
+    }
   }
   &.lightblue{
     background-color:$mime-light-blue;
+    color:#FFF;
   }
 
   a{
-    color:#EEE;
+    color:$mime-dark-blue;
   }
 
+  p{
+    color:$mime-dark-blue;
+  }
 	p, h3, h4{
 		margin:5px;
 	}
 	h3{
+	  color:$mime-orange;
 		font-size:170%;
+		a{
+      color:$mime-orange;
+	  }
 	}
 	h4{
 		font-size:130%;

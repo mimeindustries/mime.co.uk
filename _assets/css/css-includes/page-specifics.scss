@@ -39,6 +39,7 @@
   padding:70px 0 30px;
   p{
     font-size:200%;
+    font-weight:bold;
     margin-bottom:30px;
   }
 }
@@ -167,6 +168,9 @@
 		font-size:150%;
 		margin:20px 0;
 	}
+	img.logo{
+    margin-top:20px;
+  }
 }
 
 #box{
@@ -175,7 +179,7 @@
 .explanation{
 	padding:40px 0;
 	h2{
-		font-size:140%;
+		font-size:220%;
 		margin:0;
 		padding-top:20px;
 	}
@@ -195,8 +199,37 @@
 	}
 }
 
-#mearmLeader{
-  img{
-    height:100px;
+#products{
+  text-align:center;
+  padding-bottom:20px;
+  .product{
+    display:inline-block;
+    max-width:450px;
+    height:600px;
+
+    .insert{
+      width:50%;
+      background-color:$mime-yellow;
+      padding:20px;
+      margin:20px;
+      float:right;
+      color:#FFF;
+
+      a{
+        color:#FFF;
+        text-decoration:none;
+      }
+    }
+    
+  }
+  #mearmProduct{
+    img{
+      height:100px;
+    }
+  }
+  #mirobotProduct{
+    img{
+      width:90%;
+    }
   }
 }
