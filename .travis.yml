@@ -13,7 +13,7 @@ env:
 deploy:
   skip_cleanup: true
   provider: script
-  script: rm -rf ./_site/* && rvm $TRAVIS_RUBY_VERSION do bundle exec jekyll build && rvm $TRAVIS_RUBY_VERSION do bundle exec s3_website push
+  script: bin/travis_deploy
   on:
     branch: master
     

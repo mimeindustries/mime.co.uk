@@ -1,10 +1,8 @@
 #!/bin/bash
 
-. ./.env
-
 rm -rf ./_site/*
-bundle exec jekyll build
-bundle exec s3_website push
+rvm $TRAVIS_RUBY_VERSION do bundle exec jekyll build
+rvm $TRAVIS_RUBY_VERSION do bundle exec s3_website push
 
 curl -X DELETE "https://api.cloudflare.com/client/v4/zones/9592fa56592ef5913c7791ad2fafee78/purge_cache" \
 -H "X-Auth-Email: $CF_EMAIL" \
