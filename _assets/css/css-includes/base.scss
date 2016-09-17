@@ -35,15 +35,27 @@ section{
   &.orange{
     background-color:$mime-orange;
     color:#FFF;
+    p,h1,h2,h3,h4{
+      color:#FFF;
+    }
+    a{
+      color:$mime-dark-blue;
+    }
   }
   &.yellow{
     background-color:$mime-yellow;
     color:#FFF;
+    p,h1,h2,h3,h4{
+      color:#FFF;
+    }
+    a{
+      color:$mime-dark-blue;
+    }
   }
   &.darkblue{
     background-color:$mime-dark-blue;
     color:#FFF;
-    p{
+    p,h1,h2,h3,h4{
       color:#FFF;
     }
     a{
@@ -53,6 +65,12 @@ section{
   &.lightblue{
     background-color:$mime-light-blue;
     color:#FFF;
+    p,h1,h2,h3,h4{
+      color:#FFF;
+    }
+    a{
+      color:$mime-dark-blue;
+    }
   }
 
   a{
