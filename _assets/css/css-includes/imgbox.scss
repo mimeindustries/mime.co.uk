@@ -59,8 +59,18 @@
 #mirobotProduct{ background-image:url('/assets/bg/mirobotLeader.jpg');}
 #mearmProduct{ background-image:url('/assets/bg/mearmLeader.jpg');}
 
+#home2{
+  position:relative;
+  text-align:center;
+}
+
 #home2 img{
   width:70%;
-  margin:60px auto;
   max-width:900px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
+
+
