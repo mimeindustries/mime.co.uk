@@ -41,6 +41,10 @@ section{
     a{
       color:$mime-dark-blue;
     }
+		.button{
+			background-color:#FFF;
+			color:$mime-orange;
+		}
   }
   &.yellow{
     background-color:$mime-yellow;
@@ -71,7 +75,13 @@ section{
     a{
       color:$mime-dark-blue;
     }
+		.button{
+			color:#FFF;
+		}
   }
+	&.grey{
+		background-color:$light-grey;
+	}
 
   a{
     color:$mime-dark-blue;
@@ -103,20 +113,6 @@ section{
 	&.subhead{
 		font-size:150%;
 		padding:30px 0;
-	}
-	&.grey{
-		background-color:$grey;
-	}
-	&.orange{
-		background-color:$highlight;
-		color:#FFF;
-		a{
-			color:#FFF;
-		}
-		.button{
-			background-color:#FFF;
-			color:$highlight;
-		}
 	}
 	&.text {
 		margin:20px 0;
