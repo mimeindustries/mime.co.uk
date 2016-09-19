@@ -231,3 +231,16 @@
     }
   }
 }
+
+#announce{
+  background:#FFF;
+  padding:10px 40px;
+  font-size:120%;
+  color:$mime-dark-blue;
+  em{
+    font-weight:bold;
+  }
+  a{
+    color:$mime-light-blue;
+  }
+}
