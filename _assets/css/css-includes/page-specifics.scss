@@ -52,7 +52,10 @@
 	  margin-top:0.5em;
 	  margin-bottom:0.5em;
 	}
-	h2{ font-size:220%; }
+	h2{
+	  font-size:220%;
+	  line-height:100%;
+	}
 	h3{	font-size:170%; }
 	h2 a{
 		text-decoration:none;
