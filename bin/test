@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 set -e # halt script on error
 
+if [ "$(ls -A _site)" ]; then
+  rm -r _site/*
+fi
 bundle exec jekyll build
 bundle exec htmlproofer ./_site --alt-ignore "/.*/" --disable-external --url-ignore "#"
