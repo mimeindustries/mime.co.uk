@@ -21,6 +21,8 @@ exclude:
 gems:
  - jekyll-paginate
  - jekyll-assets
+ - jekyll-sitemap
+ - jekyll-last-modified-at
 assets:
   compress:
     css: false
