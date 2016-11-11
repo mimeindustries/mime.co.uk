@@ -41,6 +41,20 @@ concurrency_level: 10
 
 redirects:
   mirov2: http://learn.mirobot.io/docs/building-the-v2-mirobot/
+  build/mirobot/connect/index.html: http://learn.mime.co.uk/docs/configure-wifi/
+  build/mirobot/v1/troubleshooting/index.html: http://learn.mime.co.uk/docs/troubleshooting-guide/
+  build/mirobot/v1/chassis/index.html: http://learn.mime.co.uk/docs/building-the-v1-chassis/
+  build/mirobot/v1/pcb/index.html: http://learn.mime.co.uk/docs/soldering-the-v1-pcb/
+  build/mirobot/firmware/index.html: http://learn.mime.co.uk/docs/update-firmware-v2/
+  build/mirobot/pcb/index.html: http://learn.mime.co.uk/docs/soldering-the-v1-pcb/
+  build/mirobot/chassis/index.html: http://learn.mime.co.uk/docs/building-the-v1-chassis/
+  build/mirobot/firmware_update/index.html: http://learn.mime.co.uk/docs/update-firmware-v2/
+  build/mirobot/v1/addons/index.html: http://learn.mime.co.uk/#tags=addons&hw=mirobot-v1
+  build/mirobot/v1/using/index.html: http://learn.mime.co.uk/docs/drawing-with-mirobot/
+  build/mirobot/v1/addons/following/index.html: http://learn.mime.co.uk/docs/using-line-following-v1/
+  build/mirobot/v1/addons/collision/index.html: http://learn.mime.co.uk/docs/using-collision-detection-v1/
+
+
 
 site: _site
 
