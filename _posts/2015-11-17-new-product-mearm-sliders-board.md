@@ -12,8 +12,8 @@ The [MeArm Sliders Board](http://mearm.com/products/mearm-sliders-robot-controll
 ![](/assets/blog/2015-11-17-new-product-mearm-sliders-board/2015-06-18_13.41.16_grande.jpg)
 
 Our first batch were made with the help of those lovely robots over at Pimoroni with their fantastic ETS250 Wave Flow Soldering machine. This is essentially a tame Cyberdyne T1000 Terminator unit that gives of its polymorphic body to make electronic gizmos. Either that or a beast of a heater that liquefies 120kg of solder to run PCBs through.   
-&nbsp;  
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YsFXbA5HjsU" frameborder="0" allowfullscreen=""></iframe>&nbsp;  
+   
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YsFXbA5HjsU" frameborder="0" allowfullscreen=""></iframe>   
   
 The Sliders are a fairly simple design, consisting of just four slide potentiometers and two tactile switches on a large, sturdy PCB. We provide an acrylic case and some caps for the slide potentiometers to make a rather lovely controller brick for your MeArm (or other robot). It can be used anywhere that you can read analogue inputs and of course works extremely well with our [MeArm Brains Board](http://mearm.com/collections/mearm/products/mearm-brains-board-with-lcd-and-joysticks).
 

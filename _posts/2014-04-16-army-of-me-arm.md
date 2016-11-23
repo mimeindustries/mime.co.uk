@@ -19,7 +19,7 @@ Never one to allow the energy of frustration to go to waste I set about building
 
 Not really a finished article and lacking in gripper - the best bit about a robot arm right? It did at least inspire Jack Howard to get involved in the project. Jack is a mechanical engineer with a lot of experience in CAD. He come to phenoptix fairly often on our mostly unpublicised Open Office Fridays. Jack has turned up with designs for the laser cutter before and I've always been impressed by the fact that they work first time. I do everything in 2D and mesh them together in my mind and by rotating the work on the page, relying on my access to the laser to tweak down to a finished product.
 
-Very quickly Jack built was was to be considered the v0.2 ([files on thingiverse](http://www.thingiverse.com/thing:293707 "See easy to Open Source! Just publish the files...")). It was heavy weight and had a gripper, unfortunately too heavy for our choice of servos, but it was so solid compared to my v0.1. I could still add improvements so considered running my own development alongside Jacks. Setting aside a couple of days of hacking time where I could learn CAD to improve my design I ultimately ended up frustrated by my slow progress. I managed to add a centre piece for stability but it took me so long. I made a short video of the v0.2 and where improvements could be made for starters.&nbsp;
+Very quickly Jack built was was to be considered the v0.2 ([files on thingiverse](http://www.thingiverse.com/thing:293707 "See easy to Open Source! Just publish the files...")). It was heavy weight and had a gripper, unfortunately too heavy for our choice of servos, but it was so solid compared to my v0.1. I could still add improvements so considered running my own development alongside Jacks. Setting aside a couple of days of hacking time where I could learn CAD to improve my design I ultimately ended up frustrated by my slow progress. I managed to add a centre piece for stability but it took me so long. I made a short video of the v0.2 and where improvements could be made for starters. 
 
 <object width="560" height="315"><param name="movie" value="//www.youtube.com/v/k78MRnPtr7E?hl=en_GB&amp;version=3">
 <param name="allowFullScreen" value="true">
@@ -47,5 +47,5 @@ There was a little more product testing this morning too. This time from my wond
 
  ![](/assets/blog/2014-04-16-army-of-me-arm/2014-04-16_07.43_grande.jpg)
 
-So there you have it, why I'll been so quiet this last few weeks. Also new product - [£25 robot arm!](http://www.phenoptix.com/products/mearm-pocket-sized-robot-arm)&nbsp;Let me know what you think!
+So there you have it, why I'll been so quiet this last few weeks. Also new product - [£25 robot arm!](http://www.phenoptix.com/products/mearm-pocket-sized-robot-arm) Let me know what you think!
 

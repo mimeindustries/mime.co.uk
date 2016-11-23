@@ -21,7 +21,7 @@ Now we'll need to get to the command line on your Pi. Either boot to it or use a
 
 | 
 
-&nbsp;pi@raspberry ~ $ git clone git://github.com/richardghirst/PiBits.git  
+ pi@raspberry ~ $ git clone git://github.com/richardghirst/PiBits.git  
 Cloning into 'PiBits'...  
 remote: Reusing existing pack: 359, done.  
 remote: Total 359 (delta 0), reused 0 (delta 0)  
@@ -30,10 +30,10 @@ Resolving deltas: 100% (154/154), done.
 Checking connectivity... done.
 
 pi@raspberry ~ $ cd PiBits/ServoBlaster/user  
-pi@raspberry ~/PiBits/ServoBlaster/user $&nbsp;make servod  
+pi@raspberry ~/PiBits/ServoBlaster/user $ make servod  
 gcc -Wall -g -O2 -o servod servod.c -lm
 
-pi@raspberry ~/PiBits/ServoBlaster/user $&nbsp;sudo ./servod --idle-timeout=2000
+pi@raspberry ~/PiBits/ServoBlaster/user $ sudo ./servod --idle-timeout=2000
 
 Board revision: 2  
 Using hardware: PWM  
@@ -61,17 +61,17 @@ Servo mapping:
 
  |
 
-&nbsp;
+ 
 
 Now if everything is working ok, you'll be able to send the command
 
-| &nbsp;pi@raspberry ~/PiBits/ServoBlaster/user $&nbsp;echo 0=50% \> /dev/servoblaster |
+|  pi@raspberry ~/PiBits/ServoBlaster/user $ echo 0=50% \> /dev/servoblaster |
 
 This will send servo 0 (the one attached to GPIO 4) to 50% of its range. Changing to echo 1=20% \> /dev/servoblaster will send servo 1 to 20% of its 0 --\>180 degree range.
 
 Next up we use Python and something called TKinter (which should be installed on your Pi already). Create a new file using your favourite file editor (it should be GVIM - it will make you more popular, stronger and better looking). I called it MeArm.py. Add the following code to it and save.
 
-| &nbsp;#!/usr/bin/env python  
+|  #!/usr/bin/env python  
 from Tkinter import \* #allows us to make a GUI with TKinter  
 import os  
   
@@ -146,13 +146,13 @@ frame.pack()
   
 root.mainloop() |
 
-&nbsp;
+ 
 
 Using a terminal or the command line type
 
-| &nbsp;pi@raspberry ~ $ python MeArm.py |
+|  pi@raspberry ~ $ python MeArm.py |
 
-&nbsp;
+ 
 
 All being well you should now have a pop up box that tells you to click inside it to control your MeArm!
 
@@ -164,7 +164,7 @@ This tutorial is thanks to Carl Monk, who did this nearly a year ago and has gon
 
 We both rely on the [ServoBlaster software](http://fortoffee.org.uk/2015/02/me-arm-and-me-raspberry-pi/)by Richard Hirst and this great post by [Cihat Keser](http://cihatkeser.com/servo-control-with-raspberry-pi-in-5-minutes-or-less/) on getting it running quickly.
 
-&nbsp;
+ 
 
-&nbsp;
+ 
 

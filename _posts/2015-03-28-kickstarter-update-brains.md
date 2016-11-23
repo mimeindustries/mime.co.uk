@@ -21,7 +21,7 @@ Did you spot it? Well on the PCB it could well be a lack of it. The bill of mate
 
 It will also be apparent that I’m a little behind on schedule. The process of pulling apart business interests in the MeArm was fairly costly in terms of time (not to mention money) – but the project is again going in the right direction and building some momentum. I’m really happy with the new layout of the board and think that it makes it fit better with the ethos of the original MeArm. In that when a new board is spun out there will be an easy and cheap upgrade path as you can pull off all of the parts from your old board and plug them into the new one, the only tricky soldering being the bluetooth module – but as I’ve selected the popular HM-11 bluetooth low energy module replacing it isn’t likely to break the bank.
 
-Although I’m doing everything I possibly can to deliver on schedule I’m mindful of the words of&nbsp;Shigeru Miyamoto “A delayed game is eventually good; a bad game is bad forever.” I want the MeArm to be a really good game!
+Although I’m doing everything I possibly can to deliver on schedule I’m mindful of the words of Shigeru Miyamoto “A delayed game is eventually good; a bad game is bad forever.” I want the MeArm to be a really good game!
 
 Once I’ve worked out Github again I’ll share the KiCad files – so those with some knowledge can point out my errors! Watch [this space](https://github.com/MeArm/Hardware) for updates!
 

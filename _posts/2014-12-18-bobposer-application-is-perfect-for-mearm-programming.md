@@ -8,7 +8,7 @@ original_id: 56794437
 ---
 
 One of my favourite MeArm videos on Youtube (by Robert Fischer) was made using a program called the BoBPoser Application.  
-BoB is a cool Bipedal robot featured on [Let’s Make Robots](http://letsmakerobots.com/node/35865)&nbsp;and the application was developed for the FOBO Robot ([as seen here](http://www.projectbiped.com/prototypes/fobo)).
+BoB is a cool Bipedal robot featured on [Let’s Make Robots](http://letsmakerobots.com/node/35865) and the application was developed for the FOBO Robot ([as seen here](http://www.projectbiped.com/prototypes/fobo)).
 
 Fortunately for us BoB uses four servos and the application is a great way to manipulate them! Thus we use it to manipulate the MeArm and these are the sort of results we can expect!
 

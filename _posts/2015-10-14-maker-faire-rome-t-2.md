@@ -8,7 +8,7 @@ original_id: 58034565
 ---
 
 This year we've made it to Maker Faire Rome! Well almost as it hasn't started yet...  
-This morning we took a look around the site to see where we'll be and get a good look at who else will be there. Seems we might have got a sneak peek at what the Geniuno team are up to as well.&nbsp; ![Rome!](/assets/blog/2015-10-14-maker-faire-rome-t-2/IMG_8640_grande.JPG)
+This morning we took a look around the site to see where we'll be and get a good look at who else will be there. Seems we might have got a sneak peek at what the Geniuno team are up to as well.  ![Rome!](/assets/blog/2015-10-14-maker-faire-rome-t-2/IMG_8640_grande.JPG)
 
 The venue is the University and Makerfaire have really taken over the place already! The whole place is full of people walking around with power tools making the tents ready for all the awesomeness to come!
 

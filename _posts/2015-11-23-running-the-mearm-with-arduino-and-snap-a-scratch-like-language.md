@@ -29,7 +29,7 @@ Select your device and COM Port and upload the Standard Firmatta sketch (Arduino
 Now open Snap4Arduino. Go to the Arduino category in the top left of the program click Connect Arduino. If the sketch was uploaded correctly and your Arduino is connected via USB it should now be connected!  
   
 Now we're going to get you started by moving the Claw!  
-Download this example: [MeArmClaw](http://mearm.io/guides/MeArm%20Basic%20Claw)&nbsp;(Right click and save as)&nbsp;  
+Download this example: [MeArmClaw](http://mearm.io/guides/MeArm%20Basic%20Claw) (Right click and save as)   
 Import the code you've just downloaded by going to the file icon and Import (the file may be in your downloads).
 
 With the MeArm connected you should now be able to run the code by clicking the green flag and pushing the up and down keys on your keyboard you'll be able to control the claw!!! If you go to far it will beep instead of move.  
@@ -37,15 +37,15 @@ With the MeArm connected you should now be able to run the code by clicking the 
 Hopefully you should be able to see the simplicity of the code that achieves this fantastically quick control method.   
   
 Check out this diagram and see if you can change the servo you're controlling to the middle servo...  
- ![](/assets/blog/2015-11-23-running-the-mearm-with-arduino-and-snap-a-scratch-like-language/PinOutProMicro_large.jpg)&nbsp;  
+ ![](/assets/blog/2015-11-23-running-the-mearm-with-arduino-and-snap-a-scratch-like-language/PinOutProMicro_large.jpg)   
 You can copy code blocks by right clicking on them and left clicking duplicate. By changing the control key, the variable that you're changing (claw) and servo pin number (ClawPin) you can control all of the other servo motors!
 
 Now I'm going to find out why I can't take screen grabs right now then get back to you on this tutorial. Hopefully it's got you started and wanting more! Please let me know how you get on in the comments or forums.
 
-&nbsp;
+ 
 
-&nbsp;
+ 
 
-&nbsp;
+ 
 
 

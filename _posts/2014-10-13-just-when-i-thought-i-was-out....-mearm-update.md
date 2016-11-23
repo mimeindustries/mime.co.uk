@@ -11,7 +11,7 @@ Wow so it's been an amazing few weeks. It was great to start at Ciseco and get t
 
 In just eight months it's gone from a paper model to a slick and handsome pocket size robot with software support for the Arduino, Raspberry Pi, Beaglebone Black, Spark Core and Espruino! We've seen work shops spring up around the world and we have distributors and manufacturers in the four corners of the globe!
 
-Our first challenge is to satisfy the demand that we already have and this week we'll be setting up a new production line.&nbsp;
+Our first challenge is to satisfy the demand that we already have and this week we'll be setting up a new production line. 
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/rARTxby_UDs" frameborder="0" allowfullscreen=""></iframe>
 

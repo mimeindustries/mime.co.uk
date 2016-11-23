@@ -20,7 +20,7 @@ The 3V board has 8.000 on that rectangle and the 5V board has 16MHz on it. Now y
 ##   
 1. The Traditional Method
 
-Download version 1.6.5 of the&nbsp;[Arduino IDE](https://www.arduino.cc/en/Main/OldSoftwareReleases#previous). There are problems with the later versions and the chip that we use.  
+Download version 1.6.5 of the [Arduino IDE](https://www.arduino.cc/en/Main/OldSoftwareReleases#previous). There are problems with the later versions and the chip that we use.  
 Install the Arduino IDE file following the onscreen prompts.   
 Once installed start the Arduino IDE and go to
 
@@ -47,8 +47,8 @@ and select Pro Micro.
 
 > Go to Tools \> Processor
 
-and select "ATMega32u4 (3.3V, 8MHz)" or&nbsp;"ATMega32u4 (5.0V, 16MHz)" depending on your board.  
-&nbsp;  
+and select "ATMega32u4 (3.3V, 8MHz)" or "ATMega32u4 (5.0V, 16MHz)" depending on your board.  
+   
 Plugging in your Pro Micro Clone via USB should now install the correct driver. If it fails, please use [this driver file](http://mearm.io/guides/sparkfun.inf) (right click and save file as).  
   
 You are now ready to start programming your Pro Micro Clone (MeArm Brains Board)
@@ -61,8 +61,8 @@ You are now ready to start programming your Pro Micro Clone (MeArm Brains Board)
 Download [Google Chrome](https://www.google.com/chrome/) (if you don't already have it)  
   
 Head over to [Codebender.cc  
-](https://codebender.cc/?referrer=MeArm) Create an account and follow the on screen prompts.&nbsp;   
-Your Pro Micro is now ready to program!&nbsp;
+](https://codebender.cc/?referrer=MeArm) Create an account and follow the on screen prompts.    
+Your Pro Micro is now ready to program! 
 
 Pros - Faster!  
 Cons - support not as comprehensive as with Arduino IDE

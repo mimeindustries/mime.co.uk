@@ -9,7 +9,7 @@ original_id: 15296625
 
 Had a new make on thingiverse this morning, which linked onto an amazing blog.
 
-This was the image that caught my eye - they've made a [#meArm](http://www.phenoptix.com/collections/mearm) Army! Would love to know more about the base robot so if anyone knows get in touch at ben at phenoptix dot com.&nbsp;
+This was the image that caught my eye - they've made a [#meArm](http://www.phenoptix.com/collections/mearm) Army! Would love to know more about the base robot so if anyone knows get in touch at ben at phenoptix dot com. 
 
 ![](/assets/blog/2014-09-04-taiwanese-mearm-workshop/20140815_13_grande.jpg)
 

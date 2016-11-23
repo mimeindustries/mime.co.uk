@@ -15,6 +15,6 @@ In addition to the video XYZAidan has made an instructable and has entered into 
 
 ![](/assets/blog/2016-02-23-soft-gripper-for-the-mearm-mearm-mod-by-xyzaidan/F0XC8WMIKBHVFVA.LARGE_large.jpg)
 
-&nbsp;
+ 
 
 
