@@ -43,6 +43,12 @@
 			padding:3px 0;
 			margin:3px;
 		}
+
+		&.notfound{
+		  text-align:left;
+      font-family: $bodyfont;
+      font-weight:bold;
+		}
 	}
 }
 
