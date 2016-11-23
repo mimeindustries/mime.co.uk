@@ -53,7 +53,7 @@ redirects:
   build/mirobot/v1/using/index.html: http://learn.mime.co.uk/docs/drawing-with-mirobot/
   build/mirobot/v1/addons/following/index.html: http://learn.mime.co.uk/docs/using-line-following-v1/
   build/mirobot/v1/addons/collision/index.html: http://learn.mime.co.uk/docs/using-collision-detection-v1/
-
+  build/mirobot_yourself: /build/mirobot/
 
 
 site: _site
