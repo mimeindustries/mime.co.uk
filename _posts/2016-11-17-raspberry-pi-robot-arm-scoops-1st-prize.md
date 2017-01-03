@@ -5,9 +5,9 @@ date: 2016/11/17
 layout: post
 ---
 
-![Enlightend Pi at Hackaday.io](/assets/blog/2016-11-22-raspberry-pi-robot-arm-scoops-1st-prize/enlightenedpi.jpg)
-
 The latest prototype for the MeArm Raspberry Pi addition has won 1st Prize on the Hackaday Enlightened Pi contest. We started documenting our latest creation with the lovely people over at [Hackaday.io](https://hackaday.io/project/16537-mearm-raspberry-pi-edition) as was a form of open development for our first big project at Mime Industries - making the MeArm Robot arm and Raspberry Pi perfect parners.
+
+![Enlightend Pi at Hackaday.io](/assets/blog/2016-11-22-raspberry-pi-robot-arm-scoops-1st-prize/enlightenedpi.jpg)
 
 ![The New Design during the creative process](/assets/blog/2016-11-22-raspberry-pi-robot-arm-scoops-1st-prize/deskmess.jpg)
 
