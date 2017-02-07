@@ -1,7 +1,7 @@
 ---
 title: Makey Makey Makes a Controller Out of Anything.
 author: James Buchan
-date: 2017/2/03
+date: 2017/02/03
 layout: post
 ---
 
@@ -10,7 +10,7 @@ We've already mentioned this product in one of our [Christmas Gift Lists,](https
 
 Take a banana, or a key, or your grandma, or anything vaguely electrically conductive and then hook it up to a circuit to use it as a joystick controller or a keyboard input. It succeeds in such a way that it allows people just go through the process of being creative through making and playing with it without being dragged down by the technicalities.
 
-As such it is pretty much perfect for school age kids, or their maker parents, to learn about electricity, making circuits or even programming games. That level of accessibility has ensured that the Makey Makey is pretty commonplace in schools and science museums, even featuring on TV shows such as [Go 8 Bit.](http://blog.makeymakey.com/2016/09/07/makey-makey-on-go-8-bit/]
+As such it is pretty much perfect for school age kids, or their maker parents, to learn about electricity, making circuits or even programming games. That level of accessibility has ensured that the Makey Makey is pretty commonplace in schools and science museums, even featuring on TV shows such as [Go 8 Bit](http://blog.makeymakey.com/2016/09/07/makey-makey-on-go-8-bit/).
 
 We used an orange to start a youtube video running in the space of five minutes, but even from that base, it's pretty easy to imagine how you could develop games for this system.
 

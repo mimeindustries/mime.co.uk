@@ -54,7 +54,7 @@ redirects:
   build/mirobot/v1/addons/following/index.html: http://learn.mime.co.uk/docs/using-line-following-v1/
   build/mirobot/v1/addons/collision/index.html: http://learn.mime.co.uk/docs/using-collision-detection-v1/
   build/mirobot_yourself: /build/mirobot/
-  r/mearm-pi-kickstarter: https://www.kickstarter.com/projects/mime/1251255417
+  r/mearm-pi-kickstarter: https://www.kickstarter.com/projects/mime/mearm-pi-build-your-own-raspberry-pi-powered-robot
 
 
 site: _site
