@@ -14,6 +14,6 @@ As such it is pretty much perfect for school age kids, or their maker parents, t
 
 We used an orange to start a youtube video running in the space of five minutes, but even from that base, it's pretty easy to imagine how you could develop games for this system.
 
-![Makey Makey Orange](/assets/blog/2017-1-16-Makey-Makey-makes-a-controller-out-of-anything/Makey Makey.jpg)
+![Makey Makey Orange](/assets/blog/2017-1-16-Makey-Makey-makes-a-controller-out-of-anything/makey-makey.jpg)
 
 Whilst Ben Gray and I were discussing this post, we were talking about potentially making it so we would be able to control a Mearm with a makey makey type system. So watch this space!
