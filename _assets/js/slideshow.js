@@ -27,7 +27,10 @@ Slideshow.prototype = {
 				link.className = 'ss-index-number ss-index-' + i;
 				link.addEventListener('click', (function(slide){ return function(e){ return self.showSlide(slide, e) }})(slideNo));
 				this.index.appendChild(link);
-				this.slides[i].addEventListener('click', function(e){ return self.next(e, true) });
+				this.slides[i].addEventListener('click', function(e){
+				  if(typeof e.target.href !== 'undefined') return false;
+				  return self.next(e, true);
+				});
 			}
 		}
 		if(prev = this.el.querySelector('.ss-prev')) prev.addEventListener('click', function(e){ return self.prev(e, true) });
