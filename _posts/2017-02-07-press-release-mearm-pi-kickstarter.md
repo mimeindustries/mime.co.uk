@@ -5,17 +5,19 @@ date: 2017/02/07
 layout: post
 ---
 
-Mime Industries today launched their latest product on [Kickstarter](https://www.kickstarter.com/projects/mime/mearm-pi-build-your-own-raspberry-pi-powered-robot); a Raspberry Pi powered robot arm kit that's simple enough for kids to build.
+FOR IMMEDIATE RELEASE
 
+Nottingham, UK - Mime Industries launches Kickstarter campaign to fund their Raspberry Pi powered robot arm kit that’s simple enough for kids to build
 
 ![MeArm Pi](/assets/blog/2017-02-07-press-release-mearm-pi-kickstarter/product-shot.jpg)
 
+On February 7 2017, Mime Industries launched a crowdfunding campaign to fund the production of the world’s first robot arm kit for the Raspberry Pi.  Designed to be easy to assemble and not requiring extensive knowledge of electronics, the MeArm Pi STEM kit helps kids and adults learn robotics and teaches them how to code.
 
-Ben Pirt from Mime Industries said "we believe in helping children to have fun whilst learning about technology and the MeArm Pi is completely designed around that goal". Based on the original MeArm, which was launched on Kickstarter in 2014, this version has seen a complete re-working in order to make it much simpler for children to build. 
+Created by Ben Pirt of Mirobot and Ben Gray of MeArm, this is their fourth overfunded technology campaign and is based on the original MeArm, launched back in 2014.  “We believe in helping children to have fun whilst learning about technology and the MeArm Pi is completely designed around that goal” said Ben Pirt.  “Our products are simple to build and can be easily understood. Meaning you can use them to learn whilst playing, adding your own imagination to make something great”.
 
-The kit integrates smoothly with the [Raspberry Pi](http://www.raspberrypi.org), the ubiquitous educational computing platform, using a HAT (a plug-on board that fits on the computer) with on-board joysticks for control. Because of the large ecosystem of programming language support for the Raspberry Pi it is also possible to program the movements of the arm using a wide range of popular programming languages.
+The MeArm Pi integrates smoothly with the Raspberry Pi, the ubiquitous educational computing platform.  The kit uses a Pi HAT (a plug-on board that fits on the computer) with on-board joysticks for control.  MeArm Pi is made from plastic parts for the structure, screws and 4 metal gear servos in addition to the Pi HAT. It can be programmed in Python, Scratch, Java and many other programming languages.
 
-Mime Industries enables people to learn through play and exploration of technology. Their groundbreaking build-it-yourself kits have inspired children and adults to break through their own barriers and learn to build and code whilst having fun. Their products are simple to build and can be easily understood. Meaning you can use them to learn whilst playing, adding your own imagination to make something great.
+The MeArm Pi campaign launched on the popular crowdfunding site Kickstarter on February 7 2017 and runs until March 9 2017 with a goal of £10,000 (Approx $12,400 USD). All early birds are sold out, rewards include the standard MeArm Pi Kit of £60 (Approx $75 USD) which includes a robotic arm. All kits deliver free worldwide.
 
 [Link to the Kickstarter Page](https://www.kickstarter.com/projects/mime/mearm-pi-build-your-own-raspberry-pi-powered-robot)
 
