@@ -1,10 +1,4 @@
-﻿---
-title: We’re making a note here. Huge Success.
-author: James Buchan
-date: 2017/4/11
-layout: post
----
-
+﻿
 On February 7th, 2017. We released our kickstarter, looking for money to help us produce the Mearm Pi, a version of the Mearm that ran using the Raspberry Pi. In less than twenty four hours, we hadn’t only reached our goal, but we’d surpassed it. None of us here were expecting that, and then the ride continued.
 
 Blogs and News Sites picked us up, our little Robot Arm got into [Forbes](https://www.forbes.com/sites/johnkoetsier/2017/02/08/this-raspberry-pi-powered-robot-arm-beat-its-kickstarter-funding-goal-in-2-days/#59acf9f62491) and [The Verge.](http://www.theverge.com/circuitbreaker/2017/2/21/14682772/mearm-pi-robot-arm-kit-raspberry-kickstarter) Our friends at Pimoroni did a show just for the Mearm Pi on the [Bilge Tank.](https://www.youtube.com/watch?v=TaO_DNYGu1s) We were even featured on the [Raspberry Pi website!](https://www.raspberrypi.org/blog/mearm-pi/)
