@@ -1,5 +1,5 @@
 ﻿---
-title: We’re making a note here: Huge Success.
+title: We’re making a note here. Huge Success.
 author: James Buchan
 date: 2017/4/11
 layout: post
