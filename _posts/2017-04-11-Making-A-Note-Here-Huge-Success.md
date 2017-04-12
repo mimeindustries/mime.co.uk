@@ -1,5 +1,5 @@
 ﻿---
-title: We’re making a note here: “Huge Success.”
+title: We’re making a note here: Huge Success.
 author: James Buchan
 date: 2017/4/11
 layout: post
@@ -15,10 +15,10 @@ We went to the Raspberry Pi Birthday Party, spent a weekend there showing off th
 
 On March 8th 2017, 852 of you gave us £56,376 to support the production of the Mearm Pi, 563% of what we initially asked for. We continue to be blown away by the support and good vibes you’ve been sending in our direction on twitter and kickstarter itself. 
 
-##“So you’ve been pretty successful! Good job! What now?”
+**“So you’ve been pretty successful! Good job! What now?”**
 
 The past few weeks since the kickstarter ended has been pretty hectic, we’ve been putting the finishing touches onto the Mearm Pi. The polish before we go into production and then, very soon, we’ll be full steam ahead.
 
-##“But what if we missed your kickstarter and still want to get one as soon as possible?” 
+**“But what if we missed your kickstarter and still want to get one as soon as possible?”** 
 
 Good news hypothetical person asking these questions! (Where did you come from by the way?) We’re now on indiegogo accepting orders from there. To do so, just go to [our page](https://www.indiegogo.com/projects/mearm-pi-a-robot-arm-anyone-can-build-education#/) and order one.
