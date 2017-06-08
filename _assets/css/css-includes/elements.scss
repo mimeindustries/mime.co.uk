@@ -1,6 +1,5 @@
 .button {
-  #font-family: 'baqrounded';
-	font-family: "T Star Mono Round", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-family: $bodyfont;
   font-size: 140%;
   color:#FFF;
   background-color:$highlight;
