@@ -201,38 +201,34 @@
 }
 
 #products{
-  text-align:center;
   padding-bottom:20px;
+  text-align:center;
   .product{
     display:inline-block;
-    max-width:450px;
-    height:600px;
-
-    .insert{
-      width:50%;
-      background-color:$mime-yellow;
-      padding:20px;
-      margin:20px;
-      float:right;
-      color:#FFF;
-
+    vertical-align:top;
+    margin:15px 0;
+    background-color:#FAFAFA;
+    
+    .details{
+      width:400px;
+      vertical-align:top;
+      font-size:120%;
+      padding:10px;
+      display:inline-block;
+      text-align:left;
+      img{
+        max-width:400px;
+      }
       a{
-        color:#FFF;
         text-decoration:none;
+        color:#000;
       }
     }
     
   }
-  #mearmProduct{
-    img{
-      height:100px;
-    }
-  }
-  #mirobotProduct{
-    img{
-      width:90%;
-    }
-  }
+}
+.productlist #content{
+  background-color:#EEE;
 }
 
 #announce{
