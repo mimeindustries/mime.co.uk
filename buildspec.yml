@@ -2,11 +2,16 @@ version: 0.2
 
 phases:
   install:
+    runtime-versions:
+      ruby: 2.4.1
     commands:
-      - npm install
+      - echo Installing Bundler...
+      - gem install bundler
+      - bundle install
   build:
     commands:
-      - npm test
+      - echo Running tests...
+      - rails test
 artifacts:
   files:
     - '**/*'
