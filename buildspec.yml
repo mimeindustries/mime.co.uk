@@ -11,6 +11,7 @@ phases:
       - bundle install
   build:
     commands:
+    - do bundle exec jekyll build
 artifacts:
   files:
     - '**/*'
