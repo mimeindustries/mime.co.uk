@@ -12,6 +12,7 @@ phases:
   build:
     commands:
     - bundle exec jekyll build
+    - bundle exec s3_website push
 artifacts:
   files:
     - '**/*'
