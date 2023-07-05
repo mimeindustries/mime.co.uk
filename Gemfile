@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'jekyll'
-gem 's3_website'
+gem 's3_website_revived'
 gem 'jekyll-assets'
 gem 'uglifier'
 gem 'jekyll-paginate'
