@@ -7,7 +7,7 @@ phases:
     commands:
       - echo Installing Bundler...
       - rbenv install 2.7.6
-      - gem install bundler
+      - gem install bundler:1.16.1
       - bundle install
   build:
     commands:
