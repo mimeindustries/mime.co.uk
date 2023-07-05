@@ -3,10 +3,10 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      ruby: 2.7.6
+      ruby: 2.7
     commands:
       - echo Installing Bundler...
-      - rbenv install 2.7.6
+      - rbenv install 2.7
       - gem install bundler
       - bundle install
   build:
