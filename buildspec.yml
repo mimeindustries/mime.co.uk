@@ -3,7 +3,7 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      ruby: 2.4.1
+      ruby: 2.6
     commands:
       - echo Installing Bundler...
       - gem install bundler
