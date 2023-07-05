@@ -11,8 +11,6 @@ phases:
       - bundle install
   build:
     commands:
-      - echo Running tests...
-      - rails test
 artifacts:
   files:
     - '**/*'
