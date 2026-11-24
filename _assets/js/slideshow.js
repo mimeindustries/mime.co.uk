@@ -13,7 +13,10 @@ Slideshow.prototype = {
 		var self = this;
 		this.slides = Array.prototype.slice.call(this.el.querySelectorAll('.ss-slide'));
 		if(this.order === 'random'){
-			this.slides.sort(function() { return .5 - Math.random();});
+			for(var j = this.slides.length - 1; j > 0; j--){
+				var k = Math.floor(Math.random() * (j + 1));
+				var tmp = this.slides[j]; this.slides[j] = this.slides[k]; this.slides[k] = tmp;
+			}
 		}
 		this.paused = false;
 		this.index = this.el.querySelector('.ss-index');

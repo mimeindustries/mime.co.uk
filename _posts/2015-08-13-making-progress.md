@@ -13,4 +13,4 @@ I'm really happy with how all of the pieces fit in. I'm having some custom boxes
 
 ![](/assets/blog/making-progress/pcbs.jpg)
 
-In case you're interested in seeing how Mirobot goes together in more detail, here's the [instructions for the latest version](http://learn.mirobot.io/docs/building-the-v2-mirobot/) that just went online
+In case you're interested in seeing how Mirobot goes together in more detail, here's the [instructions for the latest version](https://learn.mearm.com/) that just went online

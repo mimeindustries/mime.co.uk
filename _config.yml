@@ -18,11 +18,11 @@ exclude:
  - README.md
  - vendor
  - bin
-gems:
+ - buildspec.yml
+plugins:
  - jekyll-paginate
  - jekyll-assets
  - jekyll-sitemap
- - jekyll-last-modified-at
 assets:
   compress:
     css: false

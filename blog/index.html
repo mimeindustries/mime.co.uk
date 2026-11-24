@@ -12,9 +12,9 @@ title: Blog
         <span class="date">{{ post.date | date_to_string }}</span>
         <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
         {% if paginator.page == 1 and first_post %}
-          <p>{{ post.content }}</p>
+          <div>{{ post.content }}</div>
         {% else %}
-          <p>{{ post.content | truncatehtml: 600 }}</p>
+          <div>{{ post.excerpt }}</div>
         {% endif %}
         <a href="{{ post.url }}">Read more</a>
       </div>
